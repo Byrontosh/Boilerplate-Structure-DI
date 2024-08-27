@@ -1,8 +1,13 @@
 /* Declaration of variables CSS */
 :root {
-    --colorPrimario: #1073BA;
-    --colorSecundario: #00DA55;
-    --colorTerciario: #3B3B3B;
+    --colorUno: #1073BA;
+    --colorDos: #00DA55;
+    --colorTres: #3B3B3B;
+
+    --colorCuatro: #5C56AC ;
+    --colorCinco: #343162 ;
+    --colorSeis: #847CF6 ;
+    --colorSeis: #ECDFFD ;
 
     --separacion: 5rem; 
 
@@ -26,6 +31,7 @@ body {
     font-family: var(--fuentePrincipal); 
     font-size: 1.6rem; 
     line-height: 1.5;
+    scroll-behavior: smooth;
 }
 
 /* Styles for containers */
@@ -58,6 +64,21 @@ h3 {
 img {
     max-width: 100%;
     display: block;
+}
+
+/* General styles for btn */
+.button{
+    display: block;
+    background-color: var(--colorSecundario);
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    background-color: var(--colorPrimario);
+    color: #fff;
 }
 
 /* Utilities class */
